@@ -1,0 +1,33 @@
+.container{
+    display: grid;
+    grid-gap: 0.4rem;
+    grid-template-areas: /*Make matrix*/
+    'navbar navbar navbar aside aside'
+    'navbar navbar navbar aside aside'
+    'section section section aside aside'
+    'footer footer footer footer footer';
+}
+
+.item{
+    background-color: darkorange;
+    border: 3px solid floralwhite;
+    padding: 20px;
+}
+
+#navbar{
+    grid-area: navbar;
+    text-align: center;
+}
+
+#section{
+    grid-area: section;
+}
+
+#aside{
+    grid-area: aside;
+}
+
+#footer{
+    grid-area: footer;
+    text-align: center;
+}

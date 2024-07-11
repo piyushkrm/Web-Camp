@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-columns: 112px 112px 112px; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* justify-content: center; */
+}
+
+.box{
+    border: 2px solid forestgreen;
+    background-color: rgb(246, 224, 224);
+    padding: 30px;
+    align-items: center;
+}

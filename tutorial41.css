@@ -1,0 +1,13 @@
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 4fr;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-auto-rows: 2fr;
+    grid-auto-columns: 3fr;
+    grid-gap: 1rem;
+}
+
+.box{
+    background-color: salmon;
+    border: 2px solid seagreen;
+}

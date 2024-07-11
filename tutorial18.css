@@ -1,0 +1,15 @@
+
+#firstPara{
+    color: red; /*color by name*/
+    background-color: aqua;
+}
+
+#secondPara{
+    color: rgb(44, 146, 235); /*color by rgb*/
+    background-color: rgb(205, 210, 214);
+}
+
+#thirdPara{
+    color: #fff; /*color by hexadecimal*/
+    background-color: #e78c8c;
+}

@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+}
+
+/* Box shadow */
+
+.card {
+    padding: 23px 12px;
+    /* border: solid slateblue; */
+    margin: 15px 12px;
+    background-color: rgb(220, 25, 165);
+
+    /* box-shadow: offset-x offset-y color;  */
+    /* box-shadow: offset-x offset-y blur radius color;  */
+    /* box-shadow: offset-x offset-y blur spread-radius color;  */
+
+    /*positive number are useing with bottom and right side shaddow*/
+    /* box-shadow: 6px 9px seagreen; */
+    /*negative number are useing with upper and left side shaddow*/
+    /* box-shadow: -6px -9px seagreen;   */
+    /*Blur redius for above with positive number**/
+    /* box-shadow: 6px 9px 65px rgb(14, 235, 235); */
+    /*Blur redius for above with negative number*/
+
+    /* box-shadow: -6px -9px 15px 30px rgb(217, 204, 17); */
+    /* spread radius- on the all side color are dispatched */
+
+    /*30px is spread radius*/
+    /* box-shadow: -6px -9px 15px 30px rgb(217, 204, 17); */
+    
+    /* RGBA */
+    /* algpha are used for darkness of the color */
+    /* alpha are responsible for darkness */
+    /* box-shadow: -6px -9px 15px 30px rgba(2, 3, 2, 0.6); */
+
+    /* box shadow are goes the inside the box using "inset" */
+    /* box-shadow: inset 5px 9px yellow; */
+    /*10px spread radius*/
+    /* box-shadow: inset 5px 9px 10px yellow; */
+
+    /* box shadow with two different colors */
+    box-shadow: inset 5px 8px seagreen 9px 8px yellow;
+}
+
+/* text shadow  */
+/* for heading shadow */
+.card h2{
+    color: black;
+    text-shadow: -3px 6px 3px gainsboro;
+}
+
+/* for paragram shadow */
+/* .card p{
+    color: black;
+    text-shadow: -3px 6px 3px gainsboro;
+} */

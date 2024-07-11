@@ -1,0 +1,85 @@
+* {
+    background-color: black;
+}
+
+:root {
+    --width: 100wh;
+    --height: 100vh
+}
+
+#conatiner {
+    width: var(--width);
+    height: var(--height);
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+}
+
+.head {
+    text-align: center;
+    font-size: 2.3rem;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading {
+    color: white;
+}
+
+p {
+    color: white;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+hr {
+    color: red;
+}
+
+.cnt {
+    font-size: 2rem;
+    padding: 0px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+ul {
+    color: white;
+}
+
+Ol {
+    color: white;
+}
+
+table {
+    color: white;
+    border: 2px solid gray;
+}
+
+td{
+    border: 1px solid yellow;
+}
+
+h2{
+    color: teal;
+}
+
+form{
+    color: beige;
+    border: 2px solid red;
+}
+
+label{
+    background-color: blueviolet;
+}
+
+input{
+    background-color: brown;
+    color: yellow;
+}

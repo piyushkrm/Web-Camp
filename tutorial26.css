@@ -1,0 +1,30 @@
+.box{
+    width: 170px;
+    height: 170px;
+    border: 3px black;
+}
+
+#box1{
+    top: 45px;
+    position: relative;
+    background-color: red;
+    z-index: -15;
+}
+
+/* Z-index will work only for position: relative, absolute, fixed and sticky. */
+#box2{
+    top: 15px;
+    position: relative;
+    background-color: green;
+    /* visibility: hidden; Element are hide but place are reserve */
+    /* display: none; Place are not resirved */
+}
+
+#box3{
+    background-color: blue;
+    z-index: 45;
+}
+
+#box4{
+    background-color: yellow;
+}

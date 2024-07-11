@@ -1,0 +1,40 @@
+.container{
+    border: 3px solid gray;
+    background-color: antiquewhite;
+    height: 5000px;
+}
+/* CSS Position: Static(Default), Relative, Fixed and Sticky */
+.box{
+    border: 2px solid rebeccapurple;
+    width: 150px;
+    height: 150px;
+    margin: 4px;
+    display: inline-block;
+}
+
+#box3{
+    /* when need old positio in gap */
+    /*relative: relative to its normal position*/
+   position: absolute;          /* used top, bottom, left and right */
+    top: 30px;
+    left: 35px;
+}
+
+#box2{ 
+    /* when do not need in position gap and move w.r.t parent */
+    position: absolute;
+    top: 35px;
+    left: 35px;
+} 
+
+#box4{
+    /* Fixed: positon the element relative to thr browser window */
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+}
+
+#box1{
+    position: absolute;
+    top: 10px;
+}

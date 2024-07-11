@@ -1,0 +1,37 @@
+body{
+    background-color: yellow;
+}
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 238, 238);
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    transition-property: background-color;
+    /* transition-duration: 3s; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-delay: 0.2s; */
+
+    /* shortcut--above 4 line are consumed under one line */
+    /* transition: background-color 3s ease-in 0.2s */
+    transition: all 3s ease-out 0.2s
+}
+
+h2{
+    text-align: center;
+}
+
+#box:hover{
+    background-color: rgb(235, 58, 9);
+    /* background-image: url(Screenshot\ \(604\).png); */
+    height: 600px;
+    width: 600px;
+    border-radius: 10px 200px;
+    font-size: 4rem;
+    font-family: cursive;
+    box-shadow: 20px 18px 6px hotpink;
+    text-shadow: -3px 6px 5px gainsboro;
+}

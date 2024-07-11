@@ -1,0 +1,18 @@
+*{
+    background-color: black;
+    color: yellow;
+}
+
+li{
+margin: 20px;
+list-style: none;
+cursor: pointer;
+}
+
+ul :hover{
+    color: white;
+}
+
+ul{
+    display: flex;
+}

@@ -1,0 +1,12 @@
+
+p{
+    font-family: 'Fasthand', cursive;
+    font-size: 30px; /*1/96th of an inch*/
+    line-height: 5.3em; 
+    font-weight: bolder;
+}
+
+span{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}

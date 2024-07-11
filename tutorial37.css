@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    background-color: yellow;
+}
+
+:root {
+    /* --bg-color: blue; */
+    /* --cbg-color: rgb(136, 247, 136); */
+    --width: 250px;
+    --height: 250px;
+    --widthh: 100wh;
+    --heightt: 100vh;
+}
+
+.container {
+    /* display: flex; */
+    background-color: var(--cbg-color);
+    height: var(--heightt);
+    width: var(--widthh);
+}
+
+.box {
+    color: red;
+    background-color: var(--bg-color);
+    width: var(--width);
+    height: var(--height);
+    position: relative;
+    animation-name: pihu;
+    animation-duration: 12s;
+    /*How many times animation are play*/
+    animation-iteration-count: 1;
+    /* animation-fill-mode: forwards; */
+    /* animation-fill-mode: alternate; */
+    /* animation-fill-mode: ease-in; */
+    /* animation-fill-mode: ease-out; */
+    /* animation-fill-mode: ease-in-out; */
+    animation-delay: 0.3s;
+    /* animation-direction: alternate; */
+    /* animation-direction: reverse; */
+
+    /* Animation shortcut
+    animation: animation-name animation-duration animation-timing-function animation-dealy animation-iteration-count animation-fill-mode
+    Example
+    animation: piyush 5s ease-out 1s 12 backwards */
+}
+
+/* @keyframes piyush{
+    from{
+        width: 5px;
+    }
+
+    to{
+        width: 1400px;
+    }
+} */
+
+/* 
+@keyframes piyush{
+    from{
+        height: 200px;
+    }
+
+    to{
+        height: 500px;
+    }
+} */
+
+@keyframes pihu {
+    0% {
+        top: 0px;
+        left: 0px;
+        /* background-color: black; */
+    }
+
+    0% {
+        text-align: center;
+        justify-content: center;
+    }
+
+    10% {
+        text-align: center;
+        justify-content: center;
+        top: 0px;
+        left: 425px;
+        /* background-color: rgb(250, 23, 23); */
+    }
+
+    10% {
+        color: white;
+    }
+
+    20% {
+        top: 0px;
+        left: 850px;
+        /* background-color: black; */
+    }
+
+    20% {
+        color: gray;
+        text-align: center;
+        justify-content: center;
+    }
+
+    30% {
+        top: 0px;
+        left: 1275px;
+        /* background-color: rgb(4, 250, 172); */
+    }
+
+    30% {
+        text-align: center;
+        justify-content: center;
+    }
+
+    40% {
+        text-align: center;
+        justify-content: center;
+        top: 242px;
+        left: 1275px;
+        /* background-color: rgb(229, 4, 218); */
+    }
+
+    50% {
+        text-align: center;
+        justify-content: center;
+        top: 485px;
+        left: 1275px;
+        /* background-color: green; */
+    }
+
+    60% {
+        text-align: center;
+        justify-content: center;
+        top: 485px;
+        left: 850px;
+        /* background-color: black; */
+    }
+
+    70% {
+        top: 485px;
+        left: 425px;
+        text-align: center;
+        justify-content: center;
+        /* background-color: rgb(5, 247, 61); */
+    }
+
+    80% {
+        top: 485px;
+        left: 0px;
+        text-align: center;
+        justify-content: center;
+        /* background-color: black; */
+    }
+
+    90% {
+        text-align: center;
+        justify-content: center;
+        top: 242px;
+        left: 0px;
+        /* background-color: rgb(36, 36, 82); */
+    }
+
+    100% {
+        text-align: center;
+        justify-content: center;
+        top: 0px;
+        left: 0px;
+        /* background-color: blue; */
+    }
+}

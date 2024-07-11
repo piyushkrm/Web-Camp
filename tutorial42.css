@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 2fr;
+    grid-template-rows: repeat(4, 1fr);
+    /* grid-row-gap: 1rem;
+    grid-column-gap: 8rem; */
+    grid-gap: 1rem;
+}
+
+.item {
+    border: 2px solid violet;
+    background-color: aqua;
+    padding: 5px;
+}
+
+.item:first-child {
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    /* Shortcut */
+    grid-column: 1 / span 2;
+    /*Span two column boxes*/
+}
+
+.item:first-child {
+    /* grid-row-start: 1;
+    grid-row-end: 5; */
+
+    /* Shortcut */
+    grid-row: 1 / span 2;
+    /*Span two row boxes*/
+}

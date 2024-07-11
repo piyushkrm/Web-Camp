@@ -1,0 +1,29 @@
+        /*todays topic are "rm, rem, wh and vh" */
+        html{
+            font-size: 25px;
+        }
+
+        .container{
+            /* width: 400px; */
+            width: 100wh;   /*width are set according to the your display/window width or container width*/
+            /* height: 300px; */
+            height: 100vh;  /*height are set according to the your display/window height or container height*/
+            font-size: 10px;
+            border: 2px solid red;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        /* size are depend upon the parent then use "em" */
+        #first{
+            /* font-size: 5em;
+            padding: 3em; */
+        }
+
+        /* size are depend upon the browser default value then use "rem" */
+        #second{
+            /* font-size: 5rem;
+            padding: 3rem; */
+        }

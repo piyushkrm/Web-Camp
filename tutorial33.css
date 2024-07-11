@@ -1,0 +1,59 @@
+input {
+    display: block;
+}
+
+.container {
+    display: block;
+    width: 250px;
+    margin: auto;
+}
+
+/* Pseudo selector */
+/* input[type='text']{
+    padding: 10px;
+    border: 3px solid salmon;
+} */
+
+/* input[type='password']{
+    padding: 15px;
+    border: 3px solid seagreen;
+} */
+
+/* select by each attribute */
+/* a[target='_blank']{
+    font-size: 35px;
+    color: seagreen;
+} */
+
+/* a[target='_self']{
+    font-size: 35px;
+    color: rgb(62, 235, 53);
+} */
+
+/* same as above syntax created by piyush him self */
+/* h1 a{
+    font-size: 35px;
+    color: sandybrown;
+} */
+
+/* This will apply css for third child */
+/* li:nth-child(5){
+    color: slategray;
+} */
+
+/* This will apply css for every 2nd child */
+/* li:nth-child(2n+0){
+    color: rgb(222, 97, 13);
+} */
+
+/* This will apply css for every odd child */
+/* li:nth-child(odd){
+    color: rgb(245, 189, 189);
+    background-color: rgb(171, 130, 236);
+}  */
+
+/* This will apply css for every even child */
+/* li:nth-child(even){
+    color: rgb(239, 13, 145);
+    background-color: rgb(239, 245, 118);
+}  */

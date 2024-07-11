@@ -1,0 +1,85 @@
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: /*Make matrix*/
+    'navbar navbar navbar navbar '
+    'section section section aside '
+    'section section section aside '
+    'footer footer footer footer';
+}
+
+.border-now{
+    border: 2px solid darkgreen;
+    padding: 24px 6px;
+    background-color: darkkhaki;
+}
+
+#navbar{
+    grid-area: navbar;
+    text-align: center;
+}
+
+#section{
+    grid-area: section;
+}
+
+#aside{
+    grid-area: aside;
+}
+
+#footer{
+    grid-area: footer;
+    text-align: center;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 530px){
+    body{
+        background-color: fuchsia;
+    }
+    .container{
+        grid-template-areas:
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'aside aside aside aside'
+        'footer footer footer footer';
+    }
+}
+
+@media only screen and (min-width: 530px) and (max-width: 1000px){
+    body{
+        background-color: forestgreen;
+    }
+    .container{
+        grid-template-areas:
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'aside aside aside aside'
+        'footer footer footer footer';
+    }
+    footer{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1500px){
+    body{
+        background-color: rgb(235, 190, 100);
+    }
+    .container{
+        grid-template-areas:
+        'navbar navbar navbar navbar'
+        'section section section section'
+        'aside aside aside aside'
+        'footer footer footer footer';
+    }
+}
+
+@media only screen and (min-width: 1501px){
+    body{
+        background-color: firebrick;
+    }
+    span{
+        font-size: 2rem;
+        display: block;
+    }
+}

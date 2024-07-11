@@ -1,0 +1,49 @@
+
+.box {
+    font-size: 75px;
+    background-color: red;
+    color: rgb(21, 203, 236);
+    text-align: center;
+    display: none;
+}
+
+/* Media querie is like "if" "else" programming conditions */
+@media (min-width: 0px) and (max-width:2007px) {
+    #box-1 {
+        display: block;
+        background-color: hotpink;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 3000px) {
+    #box-2 {
+        display: block;
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width: 3000px) and (max-width: 4000px) {
+    #box-3 {
+        display: block;
+        background-color: rgb(21, 238, 217);
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 4000px) and (max-width: 5003px)
+    {
+    #box-4 {
+        display: block;
+        background-color: yellow;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 5080px) and (min-width: 7000px)
+    {
+    #box-5 {
+        display: block;
+        background-color: rgb(160, 155, 230);
+        color: rgb(5, 0, 3);
+    }
+}

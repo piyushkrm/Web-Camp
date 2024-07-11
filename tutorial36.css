@@ -1,0 +1,35 @@
+:root {
+    /* use anywhere in this program */
+    --box-color: rgb(8, 72, 128);
+    /*Gloabal variable*/
+    --primary-color: blue;
+    --danger-color: rgb(244, 86, 86);
+    --piyush-color: hotpink;
+    --max-width: 555px;
+    --max-height: 600px;
+}
+
+.box {
+    /* variable */
+    /* variable scope are only use this class not use outside the class */
+    /*Local variable*/
+    /* --box-color: seagreen; */
+    width: 200px;
+    height: 200px;
+    background-color: var(--box-color);
+    margin: 2px 3px;
+    border: 2px solid rgb(25, 247, 217);
+    /* box-shadow: 2px 10px var(--box-color); */
+}
+
+.container {
+    display: flex;
+    /* background-color: var(--box-color); */
+    background-color: var(--piyush-color);
+    align-items: center;
+    justify-content: center;
+    background-color: var(--danger-color);
+    width: var(--max-width);
+    margin: auto;
+    height: var(--max-height);
+}

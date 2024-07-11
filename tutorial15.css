@@ -1,0 +1,23 @@
+/* id selector */
+p{
+    border: 2px solid gray;
+}
+
+    #redElement{
+        color: black;
+    }
+
+    .bgBlue{
+        background-color: antiquewhite;
+    }
+
+    /* Internal css */
+    p{  
+        color: hotpink;
+    }
+    
+    /* Grouping selector */
+    footer, span{
+        background-color: yellow;
+        color: burlywood;
+    }

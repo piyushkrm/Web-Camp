@@ -1,0 +1,56 @@
+.cont{
+    padding: 0px;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    border: 2px solid salmon;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    margin: 10px;
+}
+
+h2{
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+.con{
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid salmon;
+    background-color: rgb(2, 14, 7);
+    color: white;
+}
+
+#cont{
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid salmon;
+    background-color: rgb(2, 14, 7);
+    color: yellow;
+}
+
+#btn{
+    align-content: center;
+    align-items: center;
+    width: 180px;
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1rem;
+    color: aqua;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btn:hover{
+   color: gold; 
+   background-color: blueviolet;
+}

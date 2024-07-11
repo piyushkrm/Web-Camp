@@ -1,0 +1,2 @@
+Mongoose in an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationship between data, provides schema validation, and is used to translate
+ between ojects in code and the representation of those objects in MongoDB. Object mapping between Node and MongoDB managed via Mongoose

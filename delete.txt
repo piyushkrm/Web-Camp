@@ -1,0 +1,1 @@
+This folder are usd for javascript using fs.readfileesync

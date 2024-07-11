@@ -1,0 +1,77 @@
+.container {
+    height: 455px;
+    width: 100%;
+    border: 3px solid palevioletred;
+
+    /* Flex properties for flex container */
+    display: flex;
+    /* Initilize the container as a flex box */
+    /* flex-direction: row; */
+    /*default value of flex direction is row*/
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-flow: row wrap;  */
+    /*flex direction and flex wrap both in this shortcut used*/
+    /*justify-content: center;*/
+    /*justify the content in horizontal direction*/
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+
+    /*align-items: center;*/
+    /*justify the content in vertical direction*/
+    /*vertically center the items*/
+    /* align-items: start;  */
+    /* align-items: end; */
+    /* align-items: stretch; */
+}
+
+.item {
+    background-color: tomato;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid green;
+    width: 200px;
+    height: 250px;
+}
+
+/* Flex properties for flex item */
+#item1 {
+    /* order: 3; */
+    /* flex-grow: 3; */
+}
+
+#item2 {
+    /* order: 5; */
+    /* flex-grow: 2;    */
+    flex: 5 /*(flex grow)*/ 6 /*(flex shrink)*/ 550px /*(flex basis)*/; /*Multiple things are used in one line...this is shortcut for use both 3 shortcut using*/
+}
+
+#item3 {
+    /* highest order are goes to end of the order */
+    /* order: 7; */
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    /* align-self: center; */
+}
+
+#item4 {
+    /* order: 2; */
+    /*flex-grow: -7;*/  /*negative number are goes wrong*/
+}
+
+#item5 {
+    /* order: 1; */
+    /* flex-shrink: 5; */
+}
+
+#item6 {
+    /* order: 4; */
+    /* flex-basis: 500px; */
+    /* when flex direction is set to row flex basis will control width */
+    /* when flex direction is set to column flex basis will control height */
+}

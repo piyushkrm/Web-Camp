@@ -1,0 +1,30 @@
+h1 {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* if p is contained by any li which is contained by div */
+/* div li p {
+    color: rgb(3, 57, 57);
+    font-weight: bolder;
+    background-color: antiquewhite;
+} */
+
+
+
+/* ">" means just select after the div paragraph    (direct paragraph of parent) (if p is right inside this CSS will be applied)*/
+/* div > p {
+    color: rgb(3, 57, 57);
+    font-weight: bolder;
+    background-color: antiquewhite;
+} */
+
+/* if p is right after div i.e p is the next sibling of div */
+/* div is before sibling of p then use this syntax */
+
+/* div + p{
+    color: rgb(248, 244, 25);
+    background-color: blueviolet;
+} */
